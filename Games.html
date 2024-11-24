@@ -1,60 +1,60 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Devduck Games </title>
-
-        <link rel="stylesheet" href="Style.css">
+        <link rel="stylesheet" href="./CarouselStyle.css">
     </head>
 
     <body>  
+
         <div class="UpperMenu"> 
             <a class="MenuButtons" href="Home.html">Home</a>
             <a class="MenuButtons" href="Games.html">Games</a>
             <a class="MenuButtons" href="ContactInfo.html">Contact</a>
         </div>
 
-        <div class="GridContainer">
-            <a href="Games/SpringBoy/SpringBoy.html">
-                <div class="GridItem">
-                    <img src="./Images/SpringBoyLogo.png" id="GameLogo" title="SpringBoy">
+        <div class="carousel">
+            <input type="radio" name="position"/>
+            <input type="radio" name="position"/>
+            <input type="radio" name="position" checked/>
+            <input type="radio" name="position"/>
+            <input type="radio" name="position"/>
 
-                    <hr>
-                    
-                    A VR game.
-                </div>
-            </a>
+            <main id="carousel">
+                <a class="item" href="Games/Polyglot Kitchen.html">
+                    <img src="./Images/polyglot kitchen.png">
+                    <h3 class="name">Polyglot Kitchen</h3>
+                    <p class="description">another gamejam game</p>
+                </a>
 
-            <a href="Games/GlyphOfWarding/GlyphOfWarding.html">
-                <div class="GridItem">
-                    <img src="./Images/GlyphOfWardingLogoFinal.png" id="GameLogo" title="GlyphOfWarding">
+                <a class="item" href="Games/SpringBoy/SpringBoy.html">
+                    <img src="./Images/SpringBoyLogo.png">
+                    <h3 class="name">Spring~Boy</h3>
+                    <p class="description">A VR Game</p>
+                </a>
 
-                    <hr>
+                <a class="item" href="Games/GlyphOfWarding/GlyphOfWarding.html">
+                    <img src="./Images/GlyphOfWardingLogoFinal.png">
+                    <h3 class="name">Glyph Of Warding</h3>
+                    <p class="description">Glyph of warding is a cool game </p>
+                </a>
 
-                    Glyph of warding is a cool game 
+                <a class="item" href="Games/Flame&Zeek.html">
+                    <img src="./Images/Flame&ZeekTitle.png">
+                    <h3 class="name">Flame & Zeek</h3>
+                    <p class="description">A online multiplayer game</p>
+                </a>
 
-                </div>
-            </a>
+                <a class="item" href="Games/SpeedDemon.html">
+                    <img src="./Images/SpeedDemonLogo.png">
+                    <h3 class="name">Speed Demon</h3>
+                    <p class="description">a gamejam game</p>
+                </a>
+            </main>
 
-            <a href="Games/Flame&Zeek.html">
-                <div class="GridItem">
-                    <img src="./Images/Flame&ZeekTitle.png" id="GameLogo" title="Flame&Zeek">
-
-                    <hr>
-
-                    A online multiplayer game
-                </div>
-            </a>
-
-            <a href="Games/EightRooms.html">
-                <div class="GridItem">
-                    <h1>Eight Rooms</h1>
-
-                    <hr>
-
-                    a cool horror game
-                </div>
-            </a>
         </div>
 
     </body>
