@@ -59,7 +59,7 @@ main#carousel
 }
 a.item
 {
-    --width: 500px;
+    --width: 40%;
     text-align: center;
     padding: 20px;
     border: 3px solid black;
@@ -67,14 +67,14 @@ a.item
     background-color: #fff;
     position: absolute;
     width: var(--width);
-    height: 90%;
+    height: 65%;
     background-color: white;
 
     --r: calc(var(--position) - var(--offset));
     --abs: max(calc(var(--r) * -1), var(--r));
     transition: all 0.25s linear;
     transform: rotateY(calc(-12deg * var(--r)))
-    translateX(calc(calc(var(--width) * -1) * var(--r) * 1.1));
+    translateX(calc(calc(var(--width) * -1) * var(--r) * 2));
     z-index: calc((var(--position) - var(--abs)));
 }
 a.item:nth-of-type(1)
