@@ -42,7 +42,7 @@ div.carousel
 }
 main#carousel
 {
-    margin-top: 20%;
+    margin-top: 10%;
     grid-row: 1 / 2;
     grid-column: 1 / 8;
     width: 100%;
@@ -100,7 +100,7 @@ a.item:nth-of-type(5)
 
 input
 {
-    margin-top: 50vh;
+    margin-top: 35vh;
 }
 
 input:nth-of-type(1) {
