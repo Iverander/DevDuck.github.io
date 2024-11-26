@@ -97,6 +97,10 @@ a.item:nth-of-type(5)
 {
     --offset: 5;
 }
+a.item:nth-of-type(6)
+{
+    --offset: 6;
+}
 
 input
 {
@@ -141,6 +145,13 @@ input:nth-of-type(5) {
 }
 input:nth-of-type(5):checked ~ main#carousel {
     --position: 5;
+}
+input:nth-of-type(6) {
+    grid-column: 7 / 8;
+    grid-row: 2 / 3;
+}
+input:nth-of-type(6):checked ~ main#carousel {
+    --position: 6;
 }
 
 div.UpperMenu

@@ -116,28 +116,6 @@ div.Media
     height: fit-content;
     display: flex;
 }
-iframe.Game
-{
-    border-style: none;
-    height: 700px;
-    width: 1080px;
-
-    margin: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-iframe.Video
-{
-    border-style: none;
-    height: 600px;
-    width: 1065px;
-    margin: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-
-    justify-content: center;
-    align-items: center;
-}
 div.GridContainer
 {
     display: grid;
