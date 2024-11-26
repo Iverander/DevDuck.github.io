@@ -14,8 +14,8 @@ div.carousel
 {
     height: max-content;
     display: grid;
-    grid-template-rows: 500px 100px;
-    grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+    grid-template-rows: 500px 200px;
+    grid-template-columns: 1fr 30px 30px 30px 30px 30px 30px 1fr;
     align-items: center;
     justify-items: center;
     font-family: "sans-serif","consolas";
@@ -44,8 +44,8 @@ main#carousel
 {
     margin-top: 10%;
     grid-row: 1 / 2;
-    grid-column: 1 / 8;
-    width: 100%;
+    grid-column: 1 / 10;
+    width: 100vw;
     height:  100%;
     display: flex;
     align-items: center;
@@ -53,7 +53,7 @@ main#carousel
     overflow: hidden;
     transform-style: preserve-3d;
     perspective: 1000px;
-    --items: 5;
+    --items: 6;
     --middle: 3;
     --position: 1;
 }
@@ -102,20 +102,13 @@ a.item:nth-of-type(6)
     --offset: 6;
 }
 
-input
-{
-    margin-top: 35vh;
-}
-
 input:nth-of-type(1) {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
-
 input:nth-of-type(1):checked ~ main#carousel {
     --position: 1;
 }
-
 input:nth-of-type(2) {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
@@ -123,7 +116,6 @@ input:nth-of-type(2) {
 input:nth-of-type(2):checked ~ main#carousel {
     --position: 2;
 }
-
 input:nth-of-type(3) {
     grid-column: 4 / 5;
     grid-row: 2 / 3;
@@ -153,6 +145,7 @@ input:nth-of-type(6) {
 input:nth-of-type(6):checked ~ main#carousel {
     --position: 6;
 }
+
 
 div.UpperMenu
 {
