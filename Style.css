@@ -32,8 +32,8 @@ p
 #Logo
 {
     margin-top: 2vh;
-    width: 10vw;
-    height: 10vh;
+    width: 7vw;
+    height: 7vh;
     object-fit:contain;
 }
 
@@ -41,7 +41,7 @@ div.Grid
 {
     display: grid;
     grid-template-columns: 7% 7% 7%;
-    gap: 50px;
+    gap: 1vw;
 
     width: 98%;
     height: fit-content;
