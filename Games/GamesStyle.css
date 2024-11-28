@@ -7,6 +7,7 @@ body
     background-attachment: fixed;
 
     background-color: rgb(40, 40, 40);
+    font-family: "Arial", "sans-serif";
 
     font-size: 20px;
 
@@ -44,7 +45,6 @@ hr
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: large;
-    font-family: "sans-serif","consolas";
 }
 iframe.Game
 {
@@ -92,7 +92,7 @@ div.UpperMenu
     border-bottom: 1px solid;
     border-color: white;
 
-    font-family: "sans-serif", "consolas";
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 140%;
     text-align: center;
     align-content: center;

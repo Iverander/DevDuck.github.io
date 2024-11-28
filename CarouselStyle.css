@@ -9,6 +9,7 @@ body
     background-color: rgb(40, 40, 40);
 
     font-size: 20px;
+    font-family: "Arial", "sans-serif";
 
     margin: 0px;
 }
@@ -20,7 +21,6 @@ div.carousel
     grid-template-columns: 1fr 30px 30px 30px 30px 30px 30px 1fr;
     align-items: center;
     justify-items: center;
-    font-family: "sans-serif","consolas";
 }
 .item img
 {
@@ -71,6 +71,7 @@ a.item
     width: var(--width);
     height: 65%;
     background-color: white;
+    text-decoration: none;
 
     --r: calc(var(--position) - var(--offset));
     --abs: max(calc(var(--r) * -1), var(--r));
@@ -177,7 +178,7 @@ div.UpperMenu
     border-bottom: 1px solid;
     border-color: white;
 
-    font-family: "sans-serif", "consolas";
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 140%;
     text-align: center;
     align-content: center;
