@@ -26,6 +26,9 @@ p
     color: white;
     text-decoration: none;
 }
+a{
+    color: inherit;
+}
 p.important
 {
     font-size: 25px;
