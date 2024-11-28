@@ -8,6 +8,8 @@ body
 
     background-color: rgb(40, 40, 40);
 
+    font-size: 20px;
+
     margin: 0px;
 }
 div.carousel
@@ -150,8 +152,8 @@ input:nth-of-type(6):checked ~ main#carousel {
 div.UpperMenu
 {
     display: grid;
-    grid-template-columns: 5vw 5vw 5vw;
-    gap: 5vw;
+    grid-template-columns: 10vw 10vw 10vw;
+    gap: calc(50px + 4vw);
     padding: .2%;
     align-items: center;
     justify-items: center;
@@ -159,17 +161,28 @@ div.UpperMenu
 
     position: sticky;
 
+/*
+    background-image: url(https://giphy.com/embed/xU5eJlXYuSC23SmrYL/video);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+    */
+
+
     background-color: rgb(0, 0, 0);
-    height: fit-content;
+
+    height: calc(20px + 5vh);
     width: auto;
 
     border-bottom: 1px solid;
     border-color: white;
 
     font-family: "sans-serif", "consolas";
-    font-size: 2vw;
+    font-size: 140%;
     text-align: center;
     align-content: center;
+    overflow: hidden;
+    white-space: nowrap;
 }
 a.MenuButtons
 {
