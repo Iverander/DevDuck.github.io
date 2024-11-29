@@ -1,22 +1,46 @@
 body
 {
-    /*background-image: url(./Images/Background.gif);*/
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
-    background-color: rgb(40, 40, 40);
-    font-family: "Arial", "sans-serif";
-
-    font-size: 20px;
+    background-color: rgb(40, 40, 43);
 
     margin: 0px;
+
+    color: rgb(255, 255, 255);
+    font-family: "Arial", "sans-serif";
+    font-size: 20px;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+hr.divideCompletely
+{
+    margin: 2%;
 }
 hr
 {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    box-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+p
+{
+    margin-left: 5%;
+    margin-right: 5%;
+
+    color: white;
+    text-decoration: none;
+}
+a{
+    color: inherit;
+}
+p.important
+{
+    font-size: 25px;
+}
+#Title
+{
+    margin-top: 3vh;
+    font-weight: bold;
+    font-size: 60px;
 }
 #Logo
 {
