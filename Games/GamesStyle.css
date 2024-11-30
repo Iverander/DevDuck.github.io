@@ -29,6 +29,14 @@ p
     color: white;
     text-decoration: none;
 }
+p.freeText
+{
+    margin-left: calc(5% + 20vw);
+    margin-right: calc(5% + 20vw);
+
+    color: white;
+    text-decoration: none;
+}
 a
 {
     color: inherit;
