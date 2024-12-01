@@ -54,6 +54,10 @@ p.important
     height: max-content;
     object-fit: contain;
 }
+#Logo:hover
+{
+    transform: scale(1.05, 1.05);
+}
 .MediaContainer
 {
     display: grid;
